@@ -14,7 +14,7 @@ public class ServiceImplementation implements StudentService {
     private StudentRepository repo;
 
     @Override
-    public Student createData(Student stu) {
-        return repo.save(stu);
+    public Student createData(Student student) {
+        return repo.save(student);
     }
 }
